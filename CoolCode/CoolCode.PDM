@@ -1,0 +1,116 @@
+[Root]
+Most Recent Package=Kimmo - Cool Source
+
+
+[Package|Kimmo - Cool Source|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Anele\VB\CoolCode\Package
+
+[Package|Kimmo - Cool Source|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Kimmo - Cool Source|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Kimmo - Cool Source|Files Found]
+
+[Package|Kimmo - Cool Source|Files Released]
+3=
+
+[Package|Kimmo - Cool Source|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\WINDOWS\SYSTEM32\dao360.dll=
+C:\Program Files\Common Files\Microsoft Shared\OFFICE11\MSO.DLL=
+
+[Package|Kimmo - Cool Source|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=
+C:\WINDOWS\SYSTEM32\MSMASK32.OCX=
+C:\WINDOWS\SYSTEM32\comctl32.ocx=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM32\SCRRUN.DLL=
+
+[Package|Kimmo - Cool Source|Files Added]
+
+[Package|Kimmo - Cool Source|Files Removed]
+
+[Package|Kimmo - Cool Source|Files In Project]
+C:\Anele\VB\CoolCode\CoolCode.dll=Yes
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM32\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\Zipit.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\OFFICE11\MSO.DLL=Yes
+C:\WINDOWS\SYSTEM32\dao360.dll=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+C:\WINDOWS\SYSTEM32\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\comctl32.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\vb6stkit.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Kimmo - Cool Source|Configure Registry Files]
+Applicable=No
+
+[Package|Kimmo - Cool Source|Configure Remote Servers]
+Applicable=No
+
+[Package|Kimmo - Cool Source|Install Locations]
+C:\Anele\VB\CoolCode\CoolCode.dll=$(AppPath)
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\Zipit.dll=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\OFFICE11\MSO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\dao360.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM32\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\vb6stkit.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Kimmo - Cool Source|Configure Shared Files]
+Applicable=Yes
+C:\Anele\VB\CoolCode\CoolCode.dll=No
+C:\WINDOWS\SYSTEM32\Zipit.dll=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+
+[Package|Kimmo - Cool Source|Distribution]
+Type=single
+Size=
+Title=Kimmo - Cool Source
+
+[Package|Kimmo - Cool Source|Package]
+PackageFolder=C:\Anele\VB\CoolCode\Package
+ProjectFolder=C:\Anele\VB\CoolCode
+ServerSideCab=
+File1=C:\Anele\VB\CoolCode\Package\setup.exe
+File2=C:\Anele\VB\CoolCode\Package\Setup.Lst
+File3=C:\Anele\VB\CoolCode\Package\CoolCode.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
